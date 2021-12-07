@@ -1,0 +1,18 @@
+@mixin input_box {
+  padding: 12px 20px;
+  border: 1px solid $input_box_border_color;
+  border-radius: 4px;
+  text-align: center;
+}
+
+@mixin search_layout {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin gallery_layout {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

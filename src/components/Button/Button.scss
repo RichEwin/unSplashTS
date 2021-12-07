@@ -1,0 +1,13 @@
+@import '../../styling/variables';
+
+button {
+  font-family: $universal_font;
+  background-color: $button_background_color;
+  color: $button_text_color;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 15px;
+}

@@ -1,0 +1,20 @@
+@import '../../styling/variables';
+@import '../../styling/mixins';
+
+.search_container {
+  @include search_layout
+}
+
+h1 {
+  color: $app_title_color;
+}
+
+input[type="text"] {
+  @include input_box;
+}
+
+input[type="number"] {
+  @include input_box;
+  margin-left: 10px;
+  width: 100px;
+}

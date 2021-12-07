@@ -1,0 +1,15 @@
+@import '../../styling/mixins';
+
+.gallery_container {
+  @include gallery_layout
+}
+img {
+  border-radius: 10px;
+  height: 500px;
+  margin-bottom:7px; 
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 7px; 
+  object-fit: cover;
+  width: 500px;
+}
